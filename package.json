@@ -1,0 +1,29 @@
+{
+  "name": "my-vue3-counter",
+  "version": "1.0.0",
+  "description": "A simple Vue 3 counter component",
+  "main": "dist/my-vue3-counter.umd.js",
+  "module": "dist/my-vue3-counter.es.js",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "vite build"
+  },
+  "keywords": [
+    "vue3",
+    "counter",
+    "component"
+  ],
+  "author": "",
+  "license": "MIT",
+  "peerDependencies": {
+    "vue": "^3.0.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^4.0.0",
+    "vite": "^4.0.0",
+    "vue": "^3.0.0"
+  }
+}
+    
